@@ -33,7 +33,7 @@ public class Serializacion2 {
         public static String[] desc ={"parafusos","cravos","tachas"};
         public static double[] prezo ={3.0,4.0,5.0};
         static Product aux;
-        static  String ruta = "/home/local/DANIELCASTELAO/mblancosoto/NetBeansProjects/Serializacion2/produtos.xml";
+        static  String ruta = "/home/local/DANIELCASTELAO/mblancosoto/NetBeansProjects/Xml1718/produtos.xml";
        
     public static void main(String[] args) {
         Product obj1 = new Product(cod[0],desc[0],prezo[0]);
@@ -42,7 +42,7 @@ public class Serializacion2 {
         
       
         
-       // lerObx("/home/local/DANIELCASTELAO/mblancosoto/NetBeansProjects/Serializacion2/serial.txt");
+       // lerObx("/home/local/DANIELCASTELAO/mblancosoto/NetBeansProjects/Xml1718serial.txt");
        leerXML();
         
     }
